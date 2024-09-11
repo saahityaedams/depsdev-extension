@@ -1,5 +1,5 @@
 [package]
-name = "slash_commands_example"
+name = "depsdev-extension"
 version = "0.1.0"
 edition = "2021"
 publish = false
@@ -9,8 +9,10 @@ license = "Apache-2.0"
 #workspace = true
 
 [lib]
-path = "src/slash_commands_example.rs"
+path = "src/slash_commands.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
 zed_extension_api = "0.1.0"
+toml = "0.8"
+serde = "1"

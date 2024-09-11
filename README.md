@@ -1,1 +1,1 @@
-# Zed Slash Commands Example Extension
+# Zed DepsDev Extension
